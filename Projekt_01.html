@@ -5,33 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Projekt_01</title>
   </head>
   <body>
-    <header>
-      <h1>Strona poświęcona pierwszemu projektowi</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Kontakt</a></li>
+    <!-- NAVIGATION -->
+    <nav class="navigation">
+      <div class="container navigation-content">
+        <p class="company-logo">moja firma</p>
+        <ul class="nav-items-list">
+          <li class="nav-item">o nas</li>
+          <li class="nav-item">oferta</li>
+          <li class="nav-item">kontakt</li>
         </ul>
-      </nav>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header class="main-header">
+      <div class="container main-header-content">
+        <h1 class="main-header-heading">
+          Nasza firma oferuje najwyższej jakości produkty.
+        </h1>
+        <p class="p-style">Nie wierz nam na słowo - sprawdź</p>
+        <button class="button-style">oferta</button>
+      </div>
+      <div class="main-header-overlay"></div>
     </header>
-    <main>
-      <section>
-        <h2>Informacje o projekcie</h2>
-        <p>Strona poświęcona mojej pracy z językiem programowania</p>
-      </section>
-      <section>
-        <h2>Jeszcze nie wiem co tu będzie</h2>
-        <ul>
-          <li>Informacje o działalności</li>
-          <li>Oświetlenie</li>
-          <li>Da się korzystać z google maps?</li>
+    <!-- LIST SECTION -->
+    <section class="section our-crew-section">
+      <div class="container our-crew-section-content">
+        <h2 class="section-heading-h2">Nasi specjaliści</h2>
+        <ul class="our-crew-list">
+          <li class="our-crew-list-element">
+            <img
+              class="our-crew-list-element-image"
+              src="/assets/monkey2.jpg"
+              alt="monkey2 1"
+            />
+            <div class="our-crew-list-element-content">
+              <h4 class="tile-heading">Tytus Rozrabiaka [IT - wsparcie]</h4>
+              <p class="tile-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                in dolore dicta modi aspernatur odio ea veniam, at eius ut quis,
+                molestiae, deleniti consequuntur dolor. Odit laudantium corrupti
+                impedit quaerat.
+              </p>
+            </div>
+          </li>
+          <li class="our-crew-list-element">
+            <img
+              class="our-crew-list-element-image"
+              src="/assets/monkey2.jpg"
+              alt="monkey2 1"
+            />
+            <div class="our-crew-list-element-content">
+              <h4 class="tile-heading">Tytus Rozrabiaka [IT - wsparcie]</h4>
+              <p class="tile-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                in dolore dicta modi aspernatur odio ea veniam, at eius ut quis,
+                molestiae, deleniti consequuntur dolor. Odit laudantium corrupti
+                impedit quaerat.
+              </p>
+            </div>
+          </li>
         </ul>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; Maciej Z 2023</p>
-    </footer>
+      </div>
+    </section>
   </body>
 </html>

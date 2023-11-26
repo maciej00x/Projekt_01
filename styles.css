@@ -1,0 +1,147 @@
+/* GLOBALS */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+
+  background: #ffffff; /*sprawdz czy to nie bedzie przeszkadzało */
+}
+
+/* NAVIGATION */
+
+.navigation {
+  width: 100%;
+  height: 50px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.navigation-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4e4e4e;
+}
+
+.company-logo {
+  width: 88px;
+  height: 29px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav-items-list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-item {
+  width: 45px;
+  height: 29px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* HEADER */
+
+.main-header {
+  position: relative;
+
+  width: 100%;
+  height: 574px;
+
+  background-image: url(/assets/tło_sekcji.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-header-content {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.p-style {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-style {
+  width: 164px;
+  height: 41px;
+  border: 3px solid #c4c4c400;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* LIST SECTION */
+
+.section {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.our-crew-section {
+  background-color: lightgray;
+}
+
+.our-crew-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.our-crew-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.our-crew-list-element-image {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.our-crew-list-element {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.our-crew-list-element:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.our-crew-list-element-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
