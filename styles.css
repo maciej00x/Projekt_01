@@ -31,8 +31,6 @@ body {
 }
 
 .company-logo {
-  width: 88px;
-  height: 29px;
   display: flex;
   justify-content: space-between;
   color: #ffffff;
@@ -46,8 +44,6 @@ body {
 }
 
 .nav-item {
-  width: 45px;
-  height: 29px;
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
@@ -68,7 +64,6 @@ body {
 }
 
 .main-header-content {
-  position: relative;
   height: 100%;
   display: flex;
   align-items: center;
@@ -78,20 +73,16 @@ body {
   font-weight: 700;
 }
 
-.p-style {
+.h2-style {
   font-size: 18px;
   font-weight: 700;
 }
 
 .button-style {
-  width: 164px;
-  height: 41px;
-  border: 3px solid #c4c4c400;
+  border: 3px solid white;
   color: white;
-  background-color: rgba(255, 255, 255, 0);
-  padding: 20px 40px 20px 40px;
-  text-align: center;
-  display: inline-block;
+  background-color: transparent;
+  padding: 15px 60px;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
@@ -100,12 +91,14 @@ body {
 /* LIST SECTION */
 
 .section {
+  height: 100vh;
   background-color: #f1f1f1;
-  display: flex;
-  justify-content: center;
 }
 
 .our-crew-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: lightgray;
 }
 
@@ -136,7 +129,7 @@ body {
   gap: 60px;
 }
 
-.our-crew-list-element:nth-child(even) {
+.our-crew-list-element:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 
@@ -145,3 +138,28 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+
+.section-heading-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  align-items: center;
+  color: #152d41;
+}
+
+/* BOXES SECTION */
+.boxes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+/* FOOTER */
