@@ -186,21 +186,40 @@ body {
 }
 
 /* BOXES SECTION */
-.boxes {
+.box-section-style {
+  background-color: #405d78;
+}
+
+.box-header-style {
+  padding: 50px 670px 0px 110px;
+
+  font-size: 36px;
+  font-weight: 700;
+  color: #f1f1f1;
+}
+
+.box-style {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 50px;
 
-  background-color: #405d78;
+  padding-top: 180px;
+  padding-left: 300px;
+  gap: 50px;
 }
 
 .box {
   width: 200px;
   height: 200px;
+
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #f1f1f1;
 }
 
 /* FOOTER */
