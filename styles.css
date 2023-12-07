@@ -337,6 +337,8 @@ body {
   display: flex;
   padding: 25px;
   gap: 20px;
+}
 
-  color: #ffffff;
+.logo-color {
+  fill: #ffffff;
 }
