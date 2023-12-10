@@ -292,6 +292,10 @@ body {
   gap: 8px;
 }
 
+.new-product-style {
+  font-size: 18px;
+}
+
 .new-service-dot {
   width: 22px;
   height: 22px;
@@ -337,8 +341,7 @@ body {
   display: flex;
   padding: 25px;
   gap: 20px;
-}
 
-.logo-color {
-  fill: #ffffff;
+  font-size: 30px;
+  color: #ffffff;
 }
